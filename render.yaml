@@ -1,0 +1,5 @@
+services:
+  - name: web
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview -- --port 8080
