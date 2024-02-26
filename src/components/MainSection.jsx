@@ -6,7 +6,7 @@ function MainSection() {
     const [language, setLanguage] = useState("");
     const [numberOfRepo, setNumberOfRepo] = useState("");
     const [repoData, setRepoData] = useState(null);
-    const GITHUB_TOKEN = "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";
+    const GITHUB_TOKEN = "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";
 
     const handleSubmit = async (event) => {
         event.preventDefault();
