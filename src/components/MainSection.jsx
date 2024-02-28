@@ -6,20 +6,13 @@ function MainSection() {
     const [language, setLanguage] = useState("");
     const [numberOfRepo, setNumberOfRepo] = useState("");
     const [repoData, setRepoData] = useState(null);
-    const GITHUB_TOKEN = "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";
 
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
             const url = `https://api.github.com/search/repositories?q=language:${language.trim()}&per_page=${numberOfRepo.trim()}`;
-            const options = {
-                method: "GET",
-                headers: {
-                    Authorization: `token ${GITHUB_TOKEN}`,
-                    "Content-Type": "application/json",
-                },
-            };
-            const response = await fetch(url, options);
+
+            const response = await fetch(url);
             const data = await response.json();
 
             setRepoData(data.items);
