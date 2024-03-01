@@ -9,13 +9,13 @@ This project is built with React and Tailwind CSS, offering a responsive and int
 
 ## Features
 
- ### Personalized Search:
+ #### Personalized Search:
    Users can enter their preferred programming language and the number of repositories they want to discover.
 
-### Responsive Design:
+#### Responsive Design:
   The website is optimized for various devices, including laptops,mobile phones and desktops.
 
-### Open-Source:
+#### Open-Source:
   This project is open-source, welcoming contributions from the community to enhance its functionality and user experience.
 
 ## Project Structure
