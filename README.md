@@ -30,8 +30,8 @@ To run this project locally, follow these steps:
 
 #### 1 Clone this repository to your local machine.
 #### 2 Navigate to the project directory.
-#### 3 Install dependencies using npm install.
-#### 4 Start the development server with npm run dev.
+#### 3 Install dependencies using `npm install`.
+#### 4 Start the development server with `npm run dev`.
 
 ## Contributing
 Contributions are welcome! If you have any ideas for improvements, suggestions, or bug fixes, feel free to open an issue or submit a pull request.
