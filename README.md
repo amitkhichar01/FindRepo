@@ -21,8 +21,8 @@ This project is built with React and Tailwind CSS, offering a responsive and int
 ## Project Structure
 The codebase is organized as follows:
 
-#### . src/: Houses all React components used to build the user interface.
-#### . index.html: The main HTML file serving as the entry point for the application.
+#### `. src/:` Houses all React components used to build the user interface.
+#### `. index.html:` The main HTML file serving as the entry point for the application.
 
 ## Getting Started
 
